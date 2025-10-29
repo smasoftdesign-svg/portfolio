@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+/* header */
+.nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+}
+.Logo{
+    width: 7%;
+}
+.ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.list{
+    list-style-type: none;
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: 700px;
+    cursor: pointer;
+}
+.list:hover{
+    color: #C67DFF;
+}
+.btn2{
+    padding: 8px 25px 8px 25px;
+   background-image: linear-gradient(#11002C,#C67DFF);
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.btn{
+    padding: 8px 25px 8px 25px;
+    background-color: white;
+    color: black;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: solid;
+    border-width: 2px;
+    border-color: #C67DFF;
+}
+/* hero-section */
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(17, 0, 44),rgba(0, 0, 0, 0.63)),
+    url(images/bacground\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start
+}
+.smart{
+    font-family: Montserrat;
+    font-size: 50px;
+    color: white;
+    font-weight: 700px;
+    padding: 4% 4% 2% 4%;
+}
+span{
+    color: #C67DFF;
+    text-transform: uppercase;
+}
+.soft{
+    font-family: poppins;
+    font-size: 16px;
+    color: white;
+    font-weight: 700px;
+    padding: 0% 4% 0% 4%;
+}
+.design{
+    padding: 4%;
+}
+.find{
+    font-family: poppins;
+    font-size: 16px;
+    color: #C67DFF;
+    font-weight: 700px;
+    padding: 0%;
+}
+.icons{
+    width: 6%;
+    padding: 1% 1% 0% 0%;
+}
+
+/* skills */
+
+.satify{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: solid 1px rgba(48, 48, 48, 0.096);
+}
+.skills{
+    width: 15%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   border: solid 1px rgba(0, 0, 0, 0.041);
+   border-radius: 5px;
+}
+.logos1{
+    width: 25%;
+}
+.logos{
+    width: 35%;
+}
+
+/* About me */
+.about{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.me{
+    font-family: Montserrat;
+    font-size: 30px;
+    color: black;
+    font-weight: 900px;
+    padding-bottom: 2%;
+}
+
+.work{
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: 600px;
+    margin-bottom: 10px;
+}
+.eve-con{
+   padding: 20px;
+   border: solid 1px rgba(0, 0, 0, 0.041);
+}
+.Every{
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: 600px;
+}
+
+/* services */
+.services{
+    width: 100%;
+    height: 80vh;
+    background-color: #faf4ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4%;
+}
+.serv{
+    padding-top: 4%;
+    padding-left: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work2{
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card-con{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+.cards{
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    border-radius: 15px;
+    padding: 4%;
+}
+.dev{
+    width: 30%;
+    margin-top: -50px;
+}
+
+.devt-text{
+    font-family:  Montserrat;
+    font-size: 19px;
+    color: #C67DFF;
+    font-weight: 800px;
+    margin-top: 10px;
+}
+.list2{
+    list-style-type: square;
+    font-family: poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: 700px;
+    cursor: pointer;
+    margin-top: 2%;
+    padding-left: 2%;
+}
+/* <!-- working together --> */
+.together{
+    height: 200px;
+    background-image: linear-gradient(#11002C,#C67DFF);
+    margin: 50px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} 
+.let{
+    font-family: Montserrat;
+   color: white;
+   font-size: 30px;
+   font-weight: 500;
+}
+.design1{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-left: -2px;
+}
+.btn3{
+    padding: 8px 25px 8px 25px;
+    background-color: white;
+    color: black;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 700px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: solid;
+    border-width: 2px;
+    border-color: #C67DFF;
+}
+
+/* footer */
+.footer{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.design{
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+}
+.href2{
+    text-decoration: none;
+    color: #C67DFF;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+}
+.footer1{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to right,rgb(17, 0, 44),rgba(0, 0, 0, 0.63)),
+    url(images/img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+.tik-con{
+    padding: 90px 90px 20px 90px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.ul2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.li1{
+    list-style-type: none;
+    color: white;
+    font-weight: 600;
+    font-family: poppins;
+}
+.soft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.href4{
+    text-decoration: none;
+    color: #C67DFF;
+    font-family: raleway;
+    font-weight: 700;
+}
+
+
+
+@media(min-width: 200px) and (max-width: 760px){
+.Logo{
+    width: 30%;
+}
+.hero{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right,rgb(17, 0, 44),rgba(0, 0, 0, 0.63)),
+    url(images/bacground\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start
+}
+.smart{
+    font-family: Montserrat;
+    font-size: 30px;
+    color: white;
+    font-weight: 700px;
+    padding: 2%;
+}
+.about{
+    display: block;
+}
+.soft{
+    font-family: poppins;
+    font-size: 12px;
+    color: white;
+    font-weight: 700px;
+    padding: 0% 4% 0% 4%;
+}
+.satify{
+  width: 100%;
+  height: 70vh;
+  display: block;
+ margin: auto;
+  border-bottom: solid 1px rgba(48, 48, 48, 0.096);
+}
+.skills{
+    width: 50%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+   border: solid 1px rgba(0, 0, 0, 0.041);
+   border-radius: 5px;
+   margin-top: 10px;
+}
+
+.logos{
+    width: 45%;
+}
+}
+
+@media(min-width: 200px) and (max-width: 760px){
+.ul{
+    display: none;
+   
+}
+.but{
+    display: none;
+}
+}
